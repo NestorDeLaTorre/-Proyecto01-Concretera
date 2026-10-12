@@ -1,0 +1,25 @@
+# Archivos temporales y de bloqueo de SolidWorks y AutoCAD 
+~$* 
+*.bak 
+*.dwl 
+*.dwl2 
+ 
+# Archivos gigantes de malla/resultados temporales de SolidWorks Simulation (FEA) 
+*.cwr 
+*.lcd 
+*.h5 
+ 
+# Carpetas de compilación temporal de C/C++, PlatformIO, STM32 y Python 
+.pio/ 
+build/ 
+Debug/ 
+Release/ 
+__pycache__/ 
+*.o 
+*.elf 
+*.bin 
+# Archivos temporales de LTspice y sistema operativo 
+*.raw 
+*.op.raw 
+Thumbs.db 
+.DS_Store
